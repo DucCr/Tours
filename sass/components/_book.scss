@@ -1,0 +1,31 @@
+.book {
+  // background-image: url("../../img/nat-10.jpg");
+  // background-size: 100%;
+  width: 100%;
+  height: 50rem;
+  border-radius: 5px;
+  box-shadow: 0 0 2rem rgba($color-black, $alpha: 0.5);
+  position: relative;
+  //   background-image: linear-gradient(
+  //     105deg,
+  //     rgba($color-white, 0.6) 0%,
+  //     rgba($color-white, 0.6) 50%,
+  //     transparent 50%
+  //   );
+
+  &__form {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding: 6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.6) 0%,
+      rgba($color-white, 0.6) 50%,
+      transparent 50%
+    );
+  }
+}
